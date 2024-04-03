@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, innitial-scale=1.0">
+	
+	<title>Trang chủ</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/CSS.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	
+</head>
+
+<body>
+	<!-----------Navigation bar-------------->
+	<nav>
+		<ul class="sidebar">
+			<li onClick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+			
+			<li><a href="index.html">Trang chủ<hr></a></li>
+			<li><a href="san-pham.html">Sản Phẩm<hr></a></li>
+			
+			<li><a href="lien-he.html">Liên Hệ<hr></a></li>
+		</ul>
+		<ul>
+			<li><a href="#"><img src="pic/index/logo.jpg" width="100"></a></li>
+			<li class="hideOnMobile"><a href="index.html" style="color: red;">Trang chủ</a></li>
+			<li class="hideOnMobile"><a href="san-pham.html">Sản Phẩm</a></li>
+		
+			<li class="hideOnMobile"><a href="lien-he.html">Liên Hệ</a></li>
+			<li class="menu-button" onClick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+		</ul>	
+	</nav>
+	<!----------Main body--------->
+	 	<!----Banner----->
+	<div class="container">
+		<div class="row m10">
+			<img src="pic/index/banner.jpg">
+		</div>
+		
+		<div class="row m10 sub-banner">
+			<div class="col-lg-4 center mt5">
+				<img src="pic/index/icon/best-price.png"  width=75px height=75px>
+				<h3>Giá cả phải chăng</h3>
+				<p>Có giá cả tốt nhất thị trường</p>
+				
+			</div>
+			<div class="col-lg-4 center mt5">
+				<img src="pic/index/icon/delivery.png"  width=75px height=75px>
+				<h3>Giao hàng nhanh chóng</h3>
+				<p>Có thể nhận trực tiếp hoặc giao hàng trong vòng 1 tuần</p>
+				
+			</div>
+			<div class="col-lg-4 center mt5">
+				<img src="pic/index/icon/customer-service.png"  width=75px height=75px>
+				<h3>Bảo hành tiện lợi</h3>
+				<p>Chính sách bảo hành tốt nhất</p>
+				
+			</div>
+	  </div>
+		<div class="row">
+			<div class="col-lg-12 center">
+				<h4 style="color:blue;font-size: 20px;font-family: Arial;font-weight: bold">CÁC SẢN PHẨM TIÊU BIỂU</h4>
+				<img src="pic/index/bg_tde.gif">
+			</div>
+			<!----------sp------------->
+			<div class="col-lg-3 col-sm-6 sp"><a href="#">
+					<img src="pic/index/Microsoft-Xbox-360-E-wController.jpg" width=200px height=200px/>
+					<h3 class="tieude">Xbox 360</h3>
+					<p>12 499 000 đ</p>
+				</a>
+				</div>
+			<div class="col-lg-3  col-sm-6 sp"><a href="#">
+					<img src="pic/index/switch_.jpg" width=200px height=200px/>
+					<h3 class="tieude"> Switch OLED HACK</h3>
+					<p>8 200 000 đ</p>
+				</a>
+				</div>
+			<div class="col-lg-3 col-sm-6 sp"><a href="#">
+					<img src="pic/index/ps4 slim.jpg" width=200px height=200px/>
+					<h3 class="tieude">PS4 HACK</h3>
+					<p>5 500 000 đ</p>
+				</a>
+				</div>
+			<div class="col-lg-3 col-sm-6 sp"><a href="PS5.html">
+					<img src="pic/index/ps5 digital.jpg" width=200px height=200px/>
+					<h3 class="tieude">PS5 Digital</h3>
+					<p>11 000 000 đ</p>
+				</a>
+				</div>
+		</div>
+		
+		
+	</div>	
+	
+	
+	<div><a href="javascript:;" id="gototop" href="" >GO TO TOP</a></div>
+	<!----------Footter--------->
+	<footer>
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <img src="pic/index/logo.jpg" style="margin-top: 10px">
+					
+					<h3> Thông Tin Liên Hệ </h3>
+                    <ul>
+                        <li><a class="email"href="#"> Email: 123@abc.com </a></li>
+                        <li> <p> ĐT:0123456789 </p> </li>
+                        <li> <p> Số 12 đường số 34 phường 5 quận 6 </p> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-2 col-xs-3">
+                    <h3> Hình thức thanh toán </h3>
+                    <ul class="payment">
+                        <li><img src="pic/index/icon/MoMo_Logo.png" width="50" height="50"> </li>
+                        <li><img src="pic/index/icon/Logo ZaloPay Square.png" width="50" height="50"></li>
+						<li><img src="pic/index/icon/atm-card.png" width="50" height="50"></li>
+						<li><img src="pic/index/icon/cod.png" width="50" height="50"></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-2 col-xs-3">
+                    <ul>
+                        <li> <h5> <a href="index.html" style="margin-top: 5em"> Trang Chủ</a> <h5></li>
+                        <li> <h5><a href="san-pham.html"> Sản Phẩm </a> <h5></li>
+                       
+                        <li> <h5><a href="lien-he.html"> Liên Hệ </a> <h5></li>
+                    </ul>
+                </div>
+               
+            <!--/.row--> 
+        </div>
+        <!--/.container--> 
+    </div>
+    <!--/.footer-->
+                          
+    <div class="footer-bottom">
+        <div class="container">
+            <p class="pull-left copyright"> Trang web được thiết kế bởi Phong23 </p>
+       
+        </div>
+    </div>
+    <!--/.footer-bottom--> 
+
+</footer>
+	
+	
+	
+	<!---------Script------>
+	
+	<script src="script/bootstrap.bundle.js" language="javascript"></script>
+	<script language="javascript">
+		function showSidebar(){
+			const sidebar= document.querySelector('.sidebar');
+			sidebar.style.display='flex';
+		}
+		function hideSidebar(){
+			const sidebar= document.querySelector('.sidebar');
+			sidebar.style.display='none';
+		}
+		
+		//jquery Go Top
+		$(document).ready(function() {
+    		$("#gototop").hide()
+			$(window).scroll(function(){
+		// de xem kich thuoc man hinh
+		//vao console
+		//$(window).scrollTop()
+			if($(this).scrollTop()>=100)
+		 		$("#gototop").show("slow")
+			else
+				$("#gototop").hide("slow")
+	})
+	//truot ve dau
+	$("#gototop").click(function(){
+		$("html,body").animate({
+			scrollTop:0
+		},1000);
+	})
+});
+	</script>
+</body>
+</html>
